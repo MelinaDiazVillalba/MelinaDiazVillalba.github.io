@@ -1,0 +1,120 @@
+/* Estilos generales*/
+
+/*Probar
+*{
+    border: solid 1px;
+}
+.body{
+    background-color: rgb(189, 171, 171);
+}
+*/
+
+body{
+    font-family: 'Dosis', sans-serif;
+    }
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+h2{
+    padding: 1rem;
+    text-align: left;
+    font-size: 2rem;    
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+li{
+    font-size: 1.25 rem;
+}
+
+i{
+    font-size: 3rem;
+    color: rgb(228, 204, 204);   
+    margin-left: 1.5rem;
+    margin-right: 1.5rem; 
+}
+
+hr{
+    width: 100%;
+    align-self: center;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+/* Barra de navegacion*/
+.navbar{
+    padding: 1rem;
+    background-color:  #e6ded6;
+    
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: right;
+    color: white;
+    
+}
+.nav-link{
+    color;
+    
+}
+
+
+/*Seccion principal*/
+
+.principal{
+    padding: 2rem;
+    width: 100%;
+    background-color: #e6ded6;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fotoPerfil{
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+    
+}
+
+/*habilidades*/
+.hab{
+    column-count: 3;
+    /*list-style: none;*/
+
+    }
+
+/*Contacto*/
+
+#redes{
+    font-size: 2rem;
+    text-align: center;
+    background-color: black;
+    
+}
+

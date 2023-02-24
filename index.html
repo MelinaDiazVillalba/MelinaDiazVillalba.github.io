@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Melina Rossana Diaz Villalba">
+    <meta name="description" content="Portafolio de Melina Diaz Villalba">
+    <meta name="keywords" content="HTML, CSS, Javascript, SQL, ingeniera">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Melina Diaz Villalba</title>
+    <link rel="icon" type="image/x-icon" href="multimedia/code-slash.svg">
+    
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+    <!--Hoja de estilo CSS-->
+    <link href="estilos.css" rel="stylesheet">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Dosis&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <!--Toggler-->
+        <nav class="navbar navbar-expand-md navbar-light" id="botonera1">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center" id="botones">
+                        <li class="nav-item">
+                            <a class="nav-link active hover-color" aria-current="page" href="#sobre_mi">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#experiencia">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin Toggler-->
+
+    </header>
+
+    <Section class="container-fluid principal">
+        
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5 foto">
+                    <img src="multimedia/foto.jpg" alt=" Foto de Melina Diaz Villalba" id="fotoPerfil">
+                </div>
+                <div class="col-md-5">
+                    <h1>Melina Rossana Díaz Villalba</h1>
+                    <p style="text-align: center;">Ingeniera civil iniciandose en progamación</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        
+    </Section>
+    
+
+    <section class="container" id="sobre_mi">
+        
+        <h2>Sobre mí</h2>
+        <p>
+            Soy ingeniera civil y estoy iniciando mi camino en el mundo IT. 
+            Siempre me gustó simplificar y dar soluciones simples a problemas complejos.</br>
+            Me gustan los desafíos y en el sector de la programación me gustaría dedicarme en el área de ciencia de datos. </br>
+            Sobre mi vida personal, tengo 32 años y vivo con mi esposo y dos hijos, a quienes amo.
+            Me gusta pasar tiempo con mi familia y amigos, cocinar, coser y hacer yoga.</br>
+        </p>
+
+    </section>
+
+
+    <section class="container" id="experiencia">
+        <hr/>
+        <h2>Experiencia</h2>
+        <p>
+            Trabajé 9 años como ingeniera civil, en cálculos y diseños hidráulicos y estructurales, 
+            casi siempre formando parte de equipos multidiciplinarios e interactuando con otras profesiones afines.</br>
+            Actualmente soy docente de Hidráulica en la FACET-UNT, un trabajo que me gusta y quiero mantener.</br>
+            Realicé proyectos de desarrollo web como freelancer y ahora busco incorporarme part time a una empresa 
+            para crecer y adquirir más experiencia en el área.  
+        </p>
+
+    </section>
+
+
+    <section class="container" id="habilidades">
+        <hr/>
+        <h2>Habilidades</h2>
+
+        <p>Lenguajes de programación:</p>
+        
+        <ul class="hab">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>SQL</li>
+            <li>PHP</li>
+        </ul>
+
+        <p>Librerías:</p>
+
+        <ul class="hab">
+            <li>Bootstrap</li>
+        </ul>
+        
+        <p>Reversionado</p>
+        
+        <ul class="hab">
+            <li>Git</li>
+            <li>Github</li>
+        </ul> 
+           
+        <p>Idiomas:</p>
+
+        <ul class="hab">
+            <li>Español nativo</li>
+            <li>Inglés B1</li>
+        </ul> 
+            
+        <p>Otros:</p>
+
+        <ul class="hab">
+            <li>Excel avanzado</li>
+            <li>Hidráulica</li>
+            <li>Hidrología</li>
+            <li>Cálculo estructural</li>
+        </ul>
+        
+    </section>
+
+
+    <section class="container" id="proyectos" >
+        <h2>Proyectos personales:</h2>
+        <ul id="proyectosLista" >
+            <!--<li>Español nativo</li>
+            <li>Inglés B1</li>-->
+        </ul>
+    </section>
+
+
+    <section class="container" id="educación">
+        <hr/>
+        <h2>Educación:</h2>
+        <ul>
+            <li>2008-2015: Ingenieria Civil, FACET-UNT.</li>
+            <li>2016-2017: Máster en Obras Hidraulicas, UDIMA.</li>
+            <li>2022: Diplomatura en programación web fullstack, UTN Resistencia.</li>
+            <li>2022: 1ra Etapa del curso Se Programar del trayecto formativo INTI de Argentina Programa 4.0</li>
+        </ul>
+    </section>
+
+
+    <section class="container-fluid" id="contacto">
+       
+       <p id="redes" class="iconos">
+        <a id="wsp" href="https://wa.me/543815576952" target="_blank"><i class="bi bi-whatsapp"></i></a>     
+        <a href="mailto:melinadiazvillalba@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>     
+        <a href="https://www.linkedin.com/in/melina-diaz-villalba" target="_blank"><i class="bi bi-linkedin"></i></a>
+       </p>
+
+    </section>
+
+    <!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <script src="animacion.js"></script>
+</body>
+</html>
